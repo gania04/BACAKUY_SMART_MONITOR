@@ -1,0 +1,5 @@
+{
+  "name": "PredictBook - Analisis Potensi Penjualan",
+  "description": "Aplikasi prediksi potensi penjualan buku menggunakan algoritma Decision Tree untuk menentukan apakah buku akan menjadi 'Laris' atau 'Biasa'. Dilengkapi dengan dashboard analytics dan katalog data.",
+  "requestFramePermissions": []
+}

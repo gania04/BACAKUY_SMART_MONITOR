@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSmart Analytics - Premium Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+          font-family: 'Inter', sans-serif; 
+          background-color: #F8FAFC;
+          overflow-x: hidden;
+        }
+        .font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass {
+          background: rgba(255, 255, 255, 0.7);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .sidebar-active {
+          background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+          color: white !important;
+          box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.4);
+        }
+        ::-webkit-scrollbar {
+          width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #cbd5e1;
+          border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #94a3b8;
+        }
+        .tree-container .rd3t-label__title {
+          font-weight: 800;
+          font-size: 14px;
+          fill: #1e293b;
+        }
+        .tree-container .rd3t-label__attributes {
+          font-size: 11px;
+          fill: #64748b;
+        }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom": "https://esm.sh/react-dom@18.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "react/": "https://esm.sh/react@18.2.0/",
+        "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+        "recharts": "https://esm.sh/recharts@2.12.0?deps=react@18.2.0,react-dom@18.2.0",
+        "framer-motion": "https://esm.sh/framer-motion@11.0.8?deps=react@18.2.0,react-dom@18.2.0",
+        "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.2.0,react-dom@18.2.0",
+        "react-d3-tree": "https://esm.sh/react-d3-tree@3.6.1?deps=react@18.2.0,react-dom@18.2.0",
+        "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.39.7"
+      }
+    }
+    </script>
+</head>
+<body class="text-slate-900">
+    <div id="root"></div>
+</body>
+</html>
